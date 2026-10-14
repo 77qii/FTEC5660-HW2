@@ -4,3 +4,7 @@ langchain-deepseek>=1.1,<2
 langchain-mcp-adapters>=0.2,<1
 markitdown[pdf]>=0.1,<1
 python-dotenv>=1.0,<2
+
+# Not needed to run hw2.py; only used by task2/build_adversarial_cv.py to
+# generate the Task 2 PDFs.
+pymupdf>=1.24,<2
